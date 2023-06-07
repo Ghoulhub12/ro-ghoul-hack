@@ -1,0 +1,4 @@
+if(id == "914010731") then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghoulhub12/ro-ghoul-hack/main/game/Roghoul", true))()
+_G.Supported = true
+end
