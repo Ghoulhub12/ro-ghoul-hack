@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Sa zort adam",Name = "Ghoul Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Cathe is impostor sussy among us ur under fbi s3x oh mey gad"})
+local Window = OrionLib:MakeWindow({IntroText = "Sa ucube adam",Name = "Ghoul Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Cathe is impostor sussy among us ur under fbi s3x oh mey gad"})
 
 --Value lar
 _G.AutoClick = false
