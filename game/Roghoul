@@ -2,11 +2,11 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 local Window = OrionLib:MakeWindow({IntroText = "Sa ucube adam",Name = "Ghoul Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "Cathe is impostor sussy among us ur under fbi s3x oh mey gad"})
 
 --Value lar
-_G.AutoClick = false
+_G.AutoAttack = false
 
 --function lar
-function AutoClick()
-    while _G.AutoClick == true do
+function AutoAttack()
+    while _G.AutoAttack == true do
 
 wait()
 end
@@ -21,11 +21,11 @@ local FarmTab = Window:MakeTab({
 })
 --buton
 FarmTab:AddToggle({
-	Name = "AutoClick",
+	Name = "AutoAttack",
 	Default = false,
 	Callback = function(Value)
-_G.AutoClick = Value 
-AutoClick() 
+_G.AutoAttack = Value 
+AutoAttack() 
     end
 })
 
